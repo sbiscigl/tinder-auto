@@ -4,8 +4,8 @@ import "encoding/json"
 
 /*LikeResp response type of like action*/
 type LikeResp struct {
-  Match bool `json:"match"`
-  Likes int `json:"ikes_remaining"`
+	Match bool `json:"match"`
+	Likes int  `json:"likes_remaining"`
 }
 
 /*LikeFromJSON gets the object from the json*/
